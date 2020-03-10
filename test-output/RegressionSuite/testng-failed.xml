@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [RegressionSuite]">
+  <test thread-count="5" name="RegressionTest(failed)">
+    <classes>
+      <class name="mavenpackage.KilariProject.RadioButton">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterTest"/>
+          <include name="radiobuttonTest"/>
+          <include name="aftermethod"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- mavenpackage.KilariProject.RadioButton -->
+      <class name="mavenpackage.KilariProject.CheckBox">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterTest"/>
+          <include name="aftermethod"/>
+          <include name="checkboxTest"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- mavenpackage.KilariProject.CheckBox -->
+    </classes>
+  </test> <!-- RegressionTest(failed) -->
+</suite> <!-- Failed suite [RegressionSuite] -->
